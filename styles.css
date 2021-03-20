@@ -4,47 +4,77 @@
     display: grid;
     column-gap: 16px ;
     row-gap: 16px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 240px 50px  ;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px  ;
     background-color: #FFEFDB;
-
+    padding: 16px;
     grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "."
+        "f";
+}
+
+
+@media screen and (min-width: 576px){
+    .grid-opdracht {
+        display: grid;
+        column-gap: 16px ;
+        row-gap: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 240px 100px auto 50px  ;
+        background-color: #FFEFDB;
+        padding: 16px;
+        grid-template-areas:
         "a c c"
         "b c c"
         "b e d"
         "b e ."
         "f f f";
+
+    }
+
 }
-.a {
-    grid-area: a;
-    background-color: #BA3B44;
-    align-items: center;
-}
-.b {
-    grid-area: b;
-    column-gap: 16px;
-    row-gap: 16px;
-    background-color: #BA3B44;
-    align-items: center;
-}
-.c {
-    grid-area: c;
+
+    .grid-item{
     column-gap: 16px ;
     row-gap: 16px;
-    background-color: #BA3B44;
+    background-color: #FFEFDB;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    color: white;
 }
-.d {
+#a {
+    grid-area: a;
+    background-color: #BA3B44;
+
+
+}
+#b{
+    grid-area: b;
+    background-color: #BA3B44;
+
+}
+#c{
+    grid-area: c;
+    background-color: #BA3B44;
+
+}
+#d{
     grid-area: d;
     background-color: #BA3B44;
-    align-items: center;
+
 }
-.e {
+#e {
     grid-area: e;
     background-color: #BA3B44;
     align-items: center;
 }
-.f {
+#f{
     grid-area: f;
     background-color: #BA3B44;
     align-items: center;
