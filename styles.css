@@ -25,7 +25,7 @@
         column-gap: 16px ;
         row-gap: 16px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 50px 240px 100px auto 50px  ;
+        grid-template-rows: 50px auto 100px auto 50px  ;
         background-color: #FFEFDB;
         padding: 16px;
         grid-template-areas:
@@ -39,7 +39,7 @@
 
 }
 
-    .grid-item{
+.grid-item{
     column-gap: 16px ;
     row-gap: 16px;
     background-color: #FFEFDB;
