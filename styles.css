@@ -51,31 +51,25 @@
 #a {
     grid-area: a;
     background-color: #BA3B44;
-
-
 }
 #b{
     grid-area: b;
     background-color: #BA3B44;
-
 }
 #c{
     grid-area: c;
     background-color: #BA3B44;
-
 }
 #d{
     grid-area: d;
     background-color: #BA3B44;
-
 }
 #e {
     grid-area: e;
     background-color: #BA3B44;
-    align-items: center;
+
 }
 #f{
     grid-area: f;
     background-color: #BA3B44;
-    align-items: center;
 }
